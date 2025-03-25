@@ -1,0 +1,55 @@
+* {
+margin: 0;
+
+
+}
+
+
+
+header {
+    background-color:black; /*Cor de fundo*/
+    padding: 25px; /*Respnsavel pelo prenchimento interno/tamanho*/
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+
+
+}
+
+/*Estizando a imagem*/
+header div img {
+    width: 200px;
+    height: 150px;
+}
+.list-menu ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.list-menu ul li {
+    list-style: none;
+}
+.list-menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.duda {
+font-size: 40px;
+line-height: 1.25em;
+text-align: left;
+padding: 80px;
+
+}
+
+.primeira {
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+
