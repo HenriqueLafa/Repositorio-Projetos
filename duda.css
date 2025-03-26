@@ -1,5 +1,5 @@
 * {
-margin: 0;
+    margin: 0;
 
 
 }
@@ -7,8 +7,10 @@ margin: 0;
 
 
 header {
-    background-color:black; /*Cor de fundo*/
-    padding: 25px; /*Respnsavel pelo prenchimento interno/tamanho*/
+    background-color: black;
+    /*Cor de fundo*/
+    padding: 25px;
+    /*Respnsavel pelo prenchimento interno/tamanho*/
     display: flex;
     justify-content: space-between;
     gap: 50px;
@@ -22,6 +24,7 @@ header div img {
     width: 200px;
     height: 150px;
 }
+
 .list-menu ul {
     display: flex;
     justify-content: center;
@@ -31,25 +34,44 @@ header div img {
 .list-menu ul li {
     list-style: none;
 }
+
 .list-menu ul li a {
     text-decoration: none;
     color: white;
     font-weight: 600;
 }
 
-.duda {
-font-size: 40px;
-line-height: 1.25em;
-text-align: left;
-padding: 80px;
+.inicio {
 
-}
-
-.primeira {
 display: flex;
-justify-content: center;
-align-items: center;
 
+}
+.advocacia {
+    display: flex;
+}
+.foto {
+
+    padding: 10px;
+}
+.foto img {
+
+width: 75%;
+
+}
+.advogada-class {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 80%;
+    height: 500px;
+   padding-top: 10em;
 
 }
 
+.duda {
+    font-size: 40px;
+    line-height: 1.25em;
+
+
+}
