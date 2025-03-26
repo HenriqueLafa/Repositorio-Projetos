@@ -21,7 +21,7 @@ header {
 
 /*Estizando a imagem*/
 header div img {
-    width: 200px;
+    width: 300px;
     height: 150px;
 }
 
@@ -55,7 +55,8 @@ display: flex;
 }
 .foto img {
 
-width: 75%;
+width: 87%;
+padding: 30px;
 
 }
 .advogada-class {
@@ -75,3 +76,67 @@ width: 75%;
 
 
 }
+
+.Inicio p {
+padding: 30px;
+font-size: 30px;
+text-align: justify;
+line-height: 1.875em;
+
+}
+
+
+
+
+
+
+
+.Inicio button {
+padding: 20px;
+width: 180px;
+background-color: rgb(65, 167, 65);
+position: top;
+
+
+
+
+}
+
+ .Inicio span {
+color: white;
+font-size: 15px;
+
+}
+
+.irineu {
+text-align: center;
+margin-right: 80px;
+padding-bottom: 40px;
+margin-top: 60px;
+margin-right: 40em;
+display: block;
+justify-content: center;
+align-items: center;
+
+
+
+
+}
+
+
+
+.irineu  button{
+    padding: 20px;
+    width: 180px;
+    background-color: rgb(65, 167, 65);
+
+    
+    
+
+}
+
+
+
+
+
+
