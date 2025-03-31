@@ -9,13 +9,24 @@
 header {
     background-color: black;
     /*Cor de fundo*/
-    padding: 25px;
+    padding: 30px;
     /*Respnsavel pelo prenchimento interno/tamanho*/
     display: flex;
     justify-content: space-between;
     gap: 50px;
     align-items: center;
 
+
+}
+
+
+.listmen {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 250px;
+color: white;
+font-size: 20px;
 
 }
 
@@ -49,14 +60,21 @@ display: flex;
 .advocacia {
     display: flex;
 }
+
+.advocacia h2 {
+
+color: goldenrod
+
+
+}
 .foto {
 
     padding: 10px;
 }
 .foto img {
 
-width: 87%;
-padding: 30px;
+width: 400px;
+padding: 80px;
 
 }
 .advogada-class {
@@ -78,8 +96,8 @@ padding: 30px;
 }
 
 .Inicio p {
-padding: 30px;
-font-size: 30px;
+padding: 100px;
+font-size: 25px;
 text-align: justify;
 line-height: 1.875em;
 
@@ -136,6 +154,53 @@ align-items: center;
 }
 
 
+.Segunda {
+    padding: 150px; /*Preenchimento/Tamanho da Section*/
+   background-color: rgb(22, 21, 21); /*Cor de fundo*/
+   display: flex; /*Deixando as divs lado a lado*/
+   gap: 15px; /*Espaçamento entre as caixas*/
+   justify-content: space-evenly; /*Justificando os conteudo*/
+   font-size: 20px;
+}
+
+.Segunda div {
+   width: 300px; /*Largura da caixa*/
+   height: 300px; /*Altura da caixa*/
+   background-color: rgba(128, 128, 128, 0.938); /*Cor de fundo da caixa*/
+  text-align: center;
+  padding: 15px;
+
+}
+.div-02 {
+   background-image: url(imagem/casa\ quadrada.jpg);
+   background-size: cover;
+   
+}
+
+div i {
+   color: yellow;
+}
+
+.div-03  img{
+   width: 100px;
+   height: 100px;
+
+
+}
+
+.div-03  img:hover {
+box-shadow: 10px 10px 20px;
+transition: 0.7s;
+
+
+}
+
+.div-03 p {
+   font-size: 17px; /*Tamanho da letra*/
+   color: white; /*Cor da letra*/
+   font-weight: 600; /*PESO DA FONTE*/
+   line-height: 25px;
+}
 
 
 
