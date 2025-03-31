@@ -20,15 +20,6 @@ header {
 }
 
 
-.listmen {
-display: flex;
-justify-content: center;
-align-items: center;
-gap: 250px;
-color: white;
-font-size: 20px;
-
-}
 
 /*Estizando a imagem*/
 header div img {
@@ -55,6 +46,12 @@ header div img {
 .inicio {
 
 display: flex;
+
+}
+
+.Advogada {
+color: goldenrod
+
 
 }
 .advocacia {
