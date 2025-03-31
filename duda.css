@@ -19,7 +19,15 @@ header {
 
 }
 
+.listmen {
+display: flex;
+justify-content: center;
+gap: 250px;
+align-items: center;
+color: white;
+font-size: 21px;
 
+}
 
 /*Estizando a imagem*/
 header div img {
