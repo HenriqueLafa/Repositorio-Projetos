@@ -229,3 +229,62 @@ width: 150px;
 height: 150px;
 
 }
+
+
+/* Para telas de até 768px (dispositivos móveis e tablets) */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column; /* Organiza o header em coluna em telas pequenas */
+        align-items: center;
+    }
+
+    .list-menu ul {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .Inicio {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .advocacia {
+        flex: 1 1 100%; /* Faz com que o texto ocupe 100% da largura em dispositivos menores */
+        margin-bottom: 20px;
+    }
+
+    .foto {
+        flex: 1 1 100%; /* Faz com que a imagem ocupe 100% da largura em dispositivos menores */
+    }
+
+    .foto img {
+        max-width: 90%; /* Ajusta a imagem para caber melhor na tela */
+    }
+
+    .irineu a button {
+        width: 100%; /* Torna o botão de contato 100% da largura da tela */
+        font-size: 18px;
+    }
+}
+
+/* Para telas muito pequenas (como smartphones em orientação vertical) */
+@media (max-width: 480px) {
+    header img {
+        width: 120px; /* Ajusta a logo para telas menores */
+    }
+
+    .advogada-class h1 {
+        font-size: 1.5rem; /* Ajusta o tamanho do título */
+    }
+
+    .advogada-class h2 {
+        font-size: 1.2rem; /* Ajusta o tamanho do subtítulo */
+    }
+
+    .advogada-class p {
+        font-size: 0.9rem; /* Ajusta o tamanho da descrição */
+    }
+}
