@@ -210,25 +210,6 @@ transition: 0.7s;
 
 
 
-@media screen and (max-width:480px) {
-.listmen {
-width: 150px;
-height: 150px;
-}
-
-header div img {
-
-width:100px
-
-}
-
-}
-   
-header {
-width: 150px;
-height: 150px;
-
-}
 
 
 /* Para telas de até 768px (dispositivos móveis e tablets) */
