@@ -1,0 +1,139 @@
+/* Resetando margens e paddings para evitar problemas de layout */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral do body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Estilos do cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+header img {
+    width: 150px;
+    height: auto;
+}
+
+.list-menu ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.list-menu ul li {
+    padding: 10px;
+}
+
+.list-menu ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Estilo da seção inicial */
+.Inicio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.advocacia {
+    flex: 1 1 50%;
+}
+
+.advogada-class {
+    margin-right: 20px;
+}
+
+.foto img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Botão de contato */
+.irineu a button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.irineu a button:hover {
+    background-color: #45a049;
+}
+
+/* Responsividade com media queries */
+
+/* Para telas de até 768px (dispositivos móveis e tablets) */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .list-menu ul {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .Inicio {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .advocacia {
+        flex: 1 1 100%;
+        margin-bottom: 20px;
+    }
+
+    .foto {
+        flex: 1 1 100%;
+    }
+
+    .foto img {
+        max-width: 90%;
+    }
+
+    .irineu a button {
+        width: 100%;
+        font-size: 18px;
+    }
+}
+
+/* Para telas muito pequenas (como smartphones em orientação vertical) */
+@media (max-width: 480px) {
+    header img {
+        width: 120px;
+    }
+
+    .advogada-class h1 {
+        font-size: 1.5rem;
+    }
+
+    .advogada-class h2 {
+        font-size: 1.2rem;
+    }
+
+    .advogada-class p {
+        font-size: 0.9rem;
+    }
+}
