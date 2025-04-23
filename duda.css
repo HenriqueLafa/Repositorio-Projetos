@@ -142,7 +142,7 @@
   }
 
   /* ========== MEDIA QUERIES PARA RESPONSIVIDADE ========== */
-  @media (max-width: 768px) {
+  @media (max-width: 768px) {}
     header {
       flex-direction: column;
       align-items: center;
@@ -178,9 +178,7 @@
       font-size: 18px;
     }
 
- auto;
-    }
-  }
+
 
   @media (max-width: 480px) {
     .duda {
