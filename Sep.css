@@ -1,5 +1,5 @@
-*{
-margin: 0;
+* {
+    margin: 0;
 
 
 
@@ -7,66 +7,128 @@ margin: 0;
 
 header {
 
-background-image: url(imagens/fundo\ verde.jpg);
+    background-image: url(imagens/fundo\ Palmeiras.jpg);
 
-    background-size: cover; /* opcional, para a imagem cobrir a section */
-    
-display: flex;
-justify-content: space-evenly;
-gap: 40em;
-padding: 80px;
-color: white;
+    background-size: cover;
+    /* opcional, para a imagem cobrir a section */
+
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40em;
+    padding: 80px;
+    color: white;
 
 }
 
 .Div-01 img {
-width: 130px
-
-
+    width: 130px
 }
 
 .Div-02 {
-display: flex;
+    display: flex;
 
-gap: 40px;
-margin-top: 40px;
-font-size: 20px;
+    gap: 40px;
+    margin-top: 40px;
+    font-size: 20px;
 
 
 }
+
 .Div-03 {
-background-image: url(imagens/fundo\ verde.jpg);
-background-size: cover;
-background-repeat: no-repeat; /* opcional, para não repetir */
-height: 50em;
+    background-image: url(imagens/fundo\ Palmeiras.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* opcional, para não repetir */
+    height: 50em;
 
 
-    
+
 }
 
-.Div-03 img{
-margin-left: 20em;
-width: 50rem;
-height: 20em;
+.Div-03 img {
+    margin-left: 20em;
+    width: 50rem;
+    height: 20em;
 
 
 }
 
 .Div-04 {
-background-image: url(imagens/fundo\ verde.jpg);
+    background-image: url(imagens/fundo\ Palmeiras.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 
-    
+
 }
 
 .Div-04 img {
 
-width: 50rem;
-margin-left: 20em;
+    width: 50rem;
+    margin-left: 20em;
 
 }
 
 .Div-02 a {
-text-decoration: none;
-color: white;
+    text-decoration: none;
+    color: white;
 
 }
+
+.Segunda {
+    background-image: url(imagens/fundo\ Palmeiras.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* opcional, para não repetir */
+    height: 50em;
+    color: rgb(0, 0, 0);
+
+    display: flex;
+justify-content: center;
+align-items: center;
+gap: 25px;
+   
+    /*Deixou em colunas(aplicar só na sessão) */
+    /* padding-bottom: 30px;
+    padding-top: 30px; */
+
+
+}
+
+
+
+.pai-caixas {
+    border-radius: 30px;
+   display: flex; /* ISSO AQUI FAZ OS CARTÕES FICAREM LADO A LADO */
+     gap: 25px; /* Espaço entre os cartões */
+ 
+   
+
+
+
+
+}
+
+
+
+
+
+.cartao-01  {
+    background-color: white;
+    width: 20em;
+    height: 25em;
+    text-align: center;
+    line-height: 40px;
+    padding: 30px;
+    margin-right: 55em;
+    
+    }
+
+    .cartao-01 img {
+width: 20em;
+height: 20em;
+
+
+
+    }
+
+ 
