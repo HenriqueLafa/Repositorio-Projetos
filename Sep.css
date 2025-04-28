@@ -7,7 +7,7 @@
 
 header {
 
-    background-image: url(imagens/fundo\ Palmeiras.jpg);
+    background-image: url(imagens/ChatGPT\ Image\ 28\ de\ abr.\ de\ 2025\,\ 20_41_20.png);
 
     background-size: cover;
     /* opcional, para a imagem cobrir a section */
@@ -35,7 +35,7 @@ header {
 }
 
 .Div-03 {
-    background-image: url(imagens/fundo\ Palmeiras.jpg);
+    background-image: url(imagens/ChatGPT\ Image\ 28\ de\ abr.\ de\ 2025\,\ 20_41_20.png);
     background-size: cover;
     background-repeat: no-repeat;
     /* opcional, para não repetir */
@@ -54,7 +54,7 @@ header {
 }
 
 .Div-04 {
-    background-image: url(imagens/fundo\ Palmeiras.jpg);
+    background-image: url(imagens/ChatGPT\ Image\ 28\ de\ abr.\ de\ 2025\,\ 20_41_20.png);
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -75,18 +75,17 @@ header {
 }
 
 .Segunda {
-    background-image: url(imagens/fundo\ Palmeiras.jpg);
+    background-image: url(imagens/ChatGPT\ Image\ 28\ de\ abr.\ de\ 2025\,\ 20_41_20.png);
     background-size: cover;
     background-repeat: no-repeat;
     /* opcional, para não repetir */
     height: 50em;
     color: rgb(0, 0, 0);
-
-    display: flex;
-justify-content: center;
-align-items: center;
-gap: 25px;
-   
+ display: flex;
+        justify-content: center;
+        flex-direction: column; /*Deixou em colunas(aplicar só na sessão) */
+        /* padding-bottom: 30px;
+        padding-top: 30px; */
     /*Deixou em colunas(aplicar só na sessão) */
     /* padding-bottom: 30px;
     padding-top: 30px; */
@@ -97,9 +96,10 @@ gap: 25px;
 
 
 .pai-caixas {
-    border-radius: 30px;
-   display: flex; /* ISSO AQUI FAZ OS CARTÕES FICAREM LADO A LADO */
-     gap: 25px; /* Espaço entre os cartões */
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
  
    
 
@@ -108,6 +108,10 @@ gap: 25px;
 
 }
 
+.pai-caixas div {
+border-radius: 15px;
+
+}
 
 
 
@@ -119,7 +123,7 @@ gap: 25px;
     text-align: center;
     line-height: 40px;
     padding: 30px;
-    margin-right: 55em;
+    
     
     }
 
