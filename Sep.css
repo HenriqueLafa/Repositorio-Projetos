@@ -1,0 +1,72 @@
+*{
+margin: 0;
+
+
+
+}
+
+header {
+
+background-image: url(imagens/fundo\ verde.jpg);
+
+    background-size: cover; /* opcional, para a imagem cobrir a section */
+    
+display: flex;
+justify-content: space-evenly;
+gap: 40em;
+padding: 80px;
+color: white;
+
+}
+
+.Div-01 img {
+width: 130px
+
+
+}
+
+.Div-02 {
+display: flex;
+
+gap: 40px;
+margin-top: 40px;
+font-size: 20px;
+
+
+}
+.Div-03 {
+background-image: url(imagens/fundo\ verde.jpg);
+background-size: cover;
+background-repeat: no-repeat; /* opcional, para não repetir */
+height: 50em;
+
+
+    
+}
+
+.Div-03 img{
+margin-left: 20em;
+width: 50rem;
+height: 20em;
+
+
+}
+
+.Div-04 {
+background-image: url(imagens/fundo\ verde.jpg);
+
+    
+}
+
+.Div-04 img {
+
+width: 50rem;
+margin-left: 20em;
+
+}
+
+.Div-02 a {
+text-decoration: none;
+color: white;
+
+}
