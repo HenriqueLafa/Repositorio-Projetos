@@ -81,9 +81,11 @@ header {
     /* opcional, para não repetir */
     height: 50em;
     color: rgb(0, 0, 0);
- display: flex;
+
         justify-content: center;
-        flex-direction: column; /*Deixou em colunas(aplicar só na sessão) */
+      padding: 50px;
+      
+        gap: 40px; /*Deixou em colunas(aplicar só na sessão) */
         /* padding-bottom: 30px;
         padding-top: 30px; */
     /*Deixou em colunas(aplicar só na sessão) */
@@ -93,13 +95,21 @@ header {
 
 }
 
-
+.container-linhas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px; /* Espaçamento entre as linhas */
+  }
+  
 
 .pai-caixas {
     border-radius: 15px;
     display: flex;
     justify-content: center;
     gap: 20px;
+    
+   
  
    
 
@@ -135,4 +145,3 @@ height: 20em;
 
     }
 
- 
