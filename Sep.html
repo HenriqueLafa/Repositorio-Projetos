@@ -9,7 +9,47 @@
     <link rel="shortcut icon" href="imagens/palmeiras.svg" type="image/x-icon">
     <title>INGRESSOS</title>
 </head>
+<script src="js/scrollSuave.js"></script>
+<script src="js/animacaoCartoes.js"></script>
+<script src="js/boasVindas.js"></script>
+<script src="js/scroolAnimation.js"></script>
+<script src="js/highlightCard.js"></script>
 
+<script>
+    // Scroll suave
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function(e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute("href")).scrollIntoView({
+                behavior: "smooth"
+            });
+        });
+    });
+
+    // Animação nos cartões ao passar o mouse
+    const cartoes = document.querySelectorAll('.cartao-01');
+
+    cartoes.forEach(cartao => {
+        cartao.addEventListener('mouseenter', () => {
+            cartao.style.transform = 'scale(1.05)';
+            cartao.style.transition = 'transform 0.3s ease';
+            cartao.style.boxShadow = '0 8px 20px rgba(0,0,0,0.2)';
+        });
+
+        cartao.addEventListener('mouseleave', () => {
+            cartao.style.transform = 'scale(1)';
+            cartao.style.boxShadow = 'none';
+        });
+    });
+
+    // Mensagem de boas-vindas
+    window.addEventListener("load", () => {
+        if (!sessionStorage.getItem("bemVindo")) {
+            alert("Bem-vindo ao site do Palmeiras! Confira nossos planos!");
+            sessionStorage.setItem("bemVindo", "true");
+        }
+    });
+</script>
 <body>
     <header>
         <div class="Div-01">
@@ -144,39 +184,7 @@
             </div>
 
 
-            <script>
-<script>
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener("click", function(e) {
-        e.preventDefault();
-        document.querySelector(this.getAttribute("href")).scrollIntoView({
-            behavior: "smooth"
-        });
-    });
-});
-</script>
-
-<script>
-
-
-<script>
-window.addEventListener("load", () 
-    if (!sessionStorage.getItem("bemVindo")) {
-        alert("Bem-vindo ao site do Palmeiras! Confira nossos planos!");
-        sessionStorage.setItem("bemVindo", "true");
-    }
-);
-
-
-docuent.querySelectorAll('a[href^="#"]').forEach(anchor 
-    anchor.addEventListener("click", function(e) 
-        e.preventDefault();
-        document.querySelector(this.getAttribute("href")).scrollIntoView(
-            behavior: "smooth"
-        );
-    );
-);
-</script>
+          
 
 
 

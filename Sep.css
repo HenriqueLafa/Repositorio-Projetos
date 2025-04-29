@@ -149,4 +149,13 @@ color: black;
 
 
 
-
+.animate-start {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.6s ease-out;
+  }
+  
+  .animate-in {
+    opacity: 1;
+    transform: translateY(0);
+  }
