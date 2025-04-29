@@ -1,5 +1,7 @@
 * {
     margin: 0;
+    padding: 0;
+    
 
 
 
@@ -75,33 +77,20 @@ header {
 }
 
 .Segunda {
-    background-image: url(imagens/ChatGPT\ Image\ 28\ de\ abr.\ de\ 2025\,\ 20_41_20.png);
+    width: 100vw; /* largura total da tela */
+    margin: 0;
+    padding: 50px;
+    background-image: url('imagens/ChatGPT Image 28 de abr. de 2025, 20_41_20.png');
     background-size: cover;
     background-repeat: no-repeat;
-    /* opcional, para não repetir */
-    height: 50em;
     color: rgb(0, 0, 0);
-
-        justify-content: center;
-      padding: 50px;
-      
-        gap: 40px; /*Deixou em colunas(aplicar só na sessão) */
-        /* padding-bottom: 30px;
-        padding-top: 30px; */
-    /*Deixou em colunas(aplicar só na sessão) */
-    /* padding-bottom: 30px;
-    padding-top: 30px; */
-
-
-}
-
-.container-linhas {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 40px; /* Espaçamento entre as linhas */
+    gap: 40px;
   }
-  
+
+
 
 .pai-caixas {
     border-radius: 15px;
@@ -133,6 +122,10 @@ border-radius: 15px;
     text-align: center;
     line-height: 40px;
     padding: 30px;
+    text-decoration: none;
+    color: black;
+    
+    
     
     
     }
@@ -144,4 +137,16 @@ height: 20em;
 
 
     }
+
+.cartao1 {
+font-size: 25px;
+text-decoration: none;
+color: black;
+
+
+
+}
+
+
+
 
