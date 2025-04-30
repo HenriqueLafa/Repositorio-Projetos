@@ -77,36 +77,5 @@ body {
     background-color: #689f38;
   }
   
-  @media (max-width: 600px) {
-    .cadastro-container {
-      margin: 30px 20px;
-      padding: 20px;
-    }
 
- 
   
-    h2 {
-      font-size: 1.2em;
-      text-align: center;
-    }
-  
-    label {
-      font-size: 1em;
-    }
-  
-    input[type="text"] {
-      font-size: 1em;
-    }
-  
-    .observacao {
-      font-size: 0.85em;
-    }
-  
-    .proximo {
-      width: 100%;
-      float: none;
-      margin-top: 20px;
-      padding: 12px;
-      font-size: 1em;
-    }
-  }
