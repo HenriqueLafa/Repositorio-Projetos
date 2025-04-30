@@ -101,7 +101,7 @@ body {
         right: -80px;
         transform: translateY(-50%);
         height: 300px;
-        opacity: 0.19;
+        opacity: 0.30;
         pointer-events: none;
         z-index: 0;
       }
