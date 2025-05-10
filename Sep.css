@@ -279,8 +279,15 @@ margin: 0 auto;
 
 
 
+footer {
+flex-direction: column;
+display: flex;
+justify-content: center;
+align-items: center;
 
 
+
+}
 
 
 
