@@ -286,11 +286,15 @@ width: 80%;
 
       }
 
+.cartao-02 img {
+margin-right: 2em;
 
+}
   
     .cartao-01 img {
       width: 100%;
       height: auto;
+
     }
 
  
