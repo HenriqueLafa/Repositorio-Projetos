@@ -179,7 +179,8 @@ color: black;
   padding: 0 20px;
 }
   @media (max-width: 768px) {
-    header {
+
+ header {
       flex-direction: column;
       gap: 2em;
       padding: 40px;
@@ -206,9 +207,11 @@ border-radius: 2em;
     }
   
     .cartao-01 {
-      width: 90%;
+      width: 80%;
       height: auto;
       padding: 20px;
+      margin-right: 1em;
+
     }
   
     .cartao-01 img {
@@ -233,6 +236,32 @@ border-radius: 2em;
 margin: 0 auto;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  }
+   
 
 
   
